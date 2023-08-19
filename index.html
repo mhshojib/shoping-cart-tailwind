@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>tailwind ecommerce card</title>
+    </head>
+
+    <body>
+        <div class="flex rounded-lg bg-white shadow w-1/2 h-1/2">
+            <div class=" flex-none md:w-48 w-24 relative ">
+                <img src="./shart.png "
+                    class="absolute rounded-lg inset-0 w-full h-full object-cover "
+                    alt>
+            </div>
+            <form action method="post " class="flex-auto p-6 ">
+                <div class="flex flex-wrap ">
+                    <h1 class="flex-auto text-xl font-semibold">Classic Utility
+                        Jacket
+                    </h1>
+                    <div class=" text-gray-500 font-semibold text-xl">$110</div>
+
+                </div>
+                <div class="text-gray-500 font-medium text-sm mt-2">Instock</div>
+                <div class="flex items-baseline mt-4 mb-6 text-gray-800">
+                    <div class="flex space-x-2">
+                        <label for class="text-center">
+                            <input type="radio" name="size" id="XS"
+                                class="h-6 w-6 flex items-center justify-center bg-gray-200 rounded-lg"
+                                value="XS">XS
+                        </label>
+                        <label for class="text-center">
+                            <input type="radio" name="size" id="S"
+                                class="h-6 w-6 flex items-center justify-center bg-gray-200 rounded-lg"
+                                value="S">S
+                        </label>
+                        <label for class="text-center">
+                            <input type="radio" name="size" id="M"
+                                class="h-6 w-6 flex items-center justify-center bg-gray-200 rounded-lg"
+                                value="M">M
+                        </label>
+                        <label for class="text-center">
+                            <input type="radio" name="size" id="L"
+                                class="h-6 w-6 flex items-center justify-center bg-gray-200 rounded-lg"
+                                value="L">L
+                        </label>
+                        <label for class="text-center">
+                            <input type="radio" name="size" id="XL"
+                                class="h-6 w-6 flex items-center justify-center bg-gray-200 rounded-lg"
+                                value="XL">XL
+                        </label>
+                    </div>
+                    <a href
+                        class="ml-auto hidden md:block text-sm text-gray-500 underline ">
+                        Size Guide</a>
+                </div>
+                <!-- button  -->
+                <div class="flex mb-4 text-sm font-medium">
+                    <button type="submit"
+                        class="py-2 px-4 bg-indigo-500 rounded hover:bg-indigo-700 text-white font-semibold text-center focus:outline-none shadow-md w-full transition ease-in duration-200  ">Buy
+                        Now</button>
+                </div>
+                <p class="text-sm text-gray-500">Free sheping all continantal in
+                    USA Orders</p>
+            </form>
+        </div>
+
+    </body>
+
+</html>
